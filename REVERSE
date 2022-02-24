@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    l=list(map(int,input().split()))
+    l1=[]
+    for j in l:
+        a=l[::-1]
+        l1.append(a)
+    print(*a)
